@@ -19,8 +19,8 @@ server {
     ssl_protocols TLSv1.2 TLSv1.3;
     http2 off;
 
-    access_log /var/log/angie/quasar.yandex.net.access.log;
-    error_log  /var/log/angie/quasar.yandex.net.error.log;
+    access_log /var/log/nginx/quasar.yandex.net.access.log;
+    error_log  /var/log/nginx/quasar.yandex.net.error.log;
 
     location = /generate_204 {
         return 204;
