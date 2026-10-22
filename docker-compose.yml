@@ -1,0 +1,7 @@
+services:
+  quasar:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
